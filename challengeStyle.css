@@ -1,0 +1,23 @@
+.heroImage {
+    background-image: url(https://i.pinimg.com/originals/e2/81/7a/e2817a45c8a8238c003268e8c8fb4b46.jpg);
+    background-repeat: no-repeat;
+    display: flex;
+}
+.text1 h3, h1{
+    color: white;
+    line-height: 1.5em;
+    width: 30%;
+    margin: 50px 30px 0;
+}
+.button button{
+    display: flex;
+    background-color: white;
+    color: magenta;
+    border-radius: 5px;
+    padding: 10px;
+    justify-content: start;
+    border: none;
+    align-items: flex-start;
+    /* no idea how to move that button to bottom left */
+   
+}
