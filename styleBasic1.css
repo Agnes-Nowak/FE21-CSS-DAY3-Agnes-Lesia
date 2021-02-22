@@ -1,0 +1,19 @@
+/* .container */
+ a {
+    text-decoration: none;
+    font-size: large;
+    color: white;
+    background-color:rgb(1, 31, 16);
+    text-transform: uppercase;
+    transition-property: width, height;
+    transition-duration: 500ms;
+    transition-timing-function: ease-in-out;
+}
+a:hover {
+    color: red;
+    font-weight: 900;
+    text-decoration: underline;
+    background-color: gold;
+    text-shadow: rgb(160, 45, 189);
+    text-transform: initial;
+}
