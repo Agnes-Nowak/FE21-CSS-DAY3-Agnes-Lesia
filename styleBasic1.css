@@ -1,19 +1,25 @@
 /* .container */
- a {
+ .container {
+    width: 200px;
+    height: 200px;
+    text-align: center;
     text-decoration: none;
-    font-size: large;
     color: white;
-    background-color:rgb(1, 31, 16);
-    text-transform: uppercase;
-    transition-property: width, height;
-    transition-duration: 500ms;
-    transition-timing-function: ease-in-out;
+    font-size: 20px;
+    background-color:rgb(5, 84, 255);
+    transition: width 3s, color 3s, transform 3s;
 }
-a:hover {
+.container:hover {
+    width: 300px;
+    height: 300px;
     color: red;
     font-weight: 900;
     text-decoration: underline;
     background-color: gold;
-    text-shadow: rgb(160, 45, 189);
-    text-transform: initial;
+    text-shadow: 2px 2px #8e8787;
+    transform: rotate(180deg);
+}
+
+a {
+    color: #fff;
 }
